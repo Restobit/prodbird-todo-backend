@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node --env-file=.env ./bin/www.ts"
+    "start": "node --env-file=.env ./src/bin/www.ts"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -13,7 +13,8 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "mysql2": "^3.23.1"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.10",
@@ -21,6 +22,7 @@
     "@types/debug": "^4.1.13",
     "@types/express": "^5.0.6",
     "@types/http-errors": "^2.0.5",
-    "@types/morgan": "^1.9.10"
+    "@types/morgan": "^1.9.10",
+    "typescript": "^7.0.2"
   }
 }
